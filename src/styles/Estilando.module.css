@@ -1,0 +1,19 @@
+.violeta {
+  background-color: #800cec;
+  color: #fff;
+  height: 100%;
+}
+
+.violeta h1 {
+  margin: 0;
+}
+
+/* 
+O componente modularizado recebe de forma automática uma referência única para que não seja usada em outro modulo ou classe...
+Não é possivel referenciar somente a tag a ser atacada, deve-se haver a referencia do nome da classe e a tag a ser tratada. Como abaixo não funciona no modularizado, smente nas classes globais
+
+h1 {
+  margin: 0;
+}
+
+*/
